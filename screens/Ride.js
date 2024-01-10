@@ -83,6 +83,9 @@ export default class RideScreen extends Component {
             />
             <TouchableOpacity
               style={styles.scanbutton}
+
+              //de novo problemas com o node_modeles... esse problema provavelmente vai se repetir mais
+
               //onPress=() => {this.getCameraPermissions()}
               onPress={() => this.getCameraPermissions()}
               //onPress={() => this.getCameraPermissions}
